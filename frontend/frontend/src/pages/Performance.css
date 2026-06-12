@@ -244,29 +244,29 @@
     overflow-x: auto;
 }
 
-table {
+.performance-table-box table {
     width: 100%;
     border-collapse: collapse;
     min-width: 950px;
 }
 
-thead {
+.performance-table-box thead {
     background: #f1f5f9;
 }
 
-th,
-td {
+.performance-table-box th,
+.performance-table-box td {
     padding: 16px;
     text-align: left;
     border-bottom: 1px solid #e5e7eb;
     font-weight: 800;
 }
 
-tbody tr {
+.performance-table-box tbody tr {
     transition: 0.25s;
 }
 
-tbody tr:hover {
+.performance-table-box tbody tr:hover {
     background: #f8fafc;
 }
 
